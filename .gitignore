@@ -1,0 +1,39 @@
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos temporários e de backup
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+
+# Ignore arquivos de configuração locais
+.env
+.env.local
+.env.*.local
+
+# Ignore diretórios de cache
+cache/
+tmp/
+temp/
+
+# Ignore uploads e dados locais
+uploads/
+storage/
+
+# Ignore dependências de pacotes
+vendor/
+node_modules/
+
+# Ignore arquivos de banco de dados temporários
+*.sql
+*.sqlite
+
+# Ignore IDE config
+.vscode/
+.idea/
+
+# Ignore arquivos do sistema
+.DS_Store
+Thumbs.db
